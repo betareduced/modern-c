@@ -1,0 +1,14 @@
+# Ignore all
+*
+
+# This is being explicit
+.ccls-cache/
+
+# Unignore all with extensions
+!*.*
+
+# Unignore makefile
+!Makefile
+
+# This has an extension but should be ignored
+compile_commands.json
