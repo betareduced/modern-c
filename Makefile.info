@@ -1,0 +1,18 @@
+# If there are any directories to be added to include path, add them here
+# as a space seperated list. 'include' dir in the project is automatically added
+include_dirs =
+
+# compiler to be used for C/C++ compilation. This compiler is expected to support
+# following command line options:
+#   -I for include paths
+#   -o for naming output binary
+compiler = g++
+
+# Any additional compiler flags.
+compiler_flags = -Wall -Wextra -O2 -std=c11
+
+# These flags are enabled when DEBUG=1 is defined
+debug_flags = -g3
+
+# Preprocessor flags. This is the same as compiler_flags for now
+cpp_flags =
