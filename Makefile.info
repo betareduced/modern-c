@@ -6,10 +6,10 @@ include_dirs =
 # following command line options:
 #   -I for include paths
 #   -o for naming output binary
-compiler = g++
+compiler = gcc
 
 # Any additional compiler flags.
-compiler_flags = -Wall -Wextra -O2 -std=c11
+compiler_flags = -Wall -Wextra -Werror -O2 -std=c11
 
 # These flags are enabled when DEBUG=1 is defined
 debug_flags = -g3

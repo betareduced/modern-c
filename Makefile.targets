@@ -1,0 +1,4 @@
+$(eval $(call generate_target_rule, getting_started,chapter1,getting_started.c))
+
+$(eval $(call generate_target_rule, bad,chapter1,bad.c))
+
